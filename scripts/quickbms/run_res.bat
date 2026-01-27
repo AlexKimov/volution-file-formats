@@ -1,0 +1,1 @@
+F:\git\qbms\quickbms.exe -K -d -e -Y -F "*.packfile" redfaction_pack.bms "F:\git\Volition\data" unpacked

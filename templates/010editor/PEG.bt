@@ -1,0 +1,38 @@
+//------------------------------------------------
+//--- 010 Editor v12.0.1 Binary Template
+//
+//      File: 
+//   Authors: 
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+char magic[4];
+uint a;
+uint offset;
+uint a;
+uint num;
+uint a;
+ 
+uint a;
+uint a;
+
+typedef struct {
+  uint16 width;
+  uint16 height;
+  uint type;
+  uint colors;
+  char name[48];
+  uint offset;
+} ENTRY <name=getName>;
+
+ENTRY Entr[num];
+
+string getName (ENTRY &e) {
+  local uint offs;
+  return e.name;
+} 

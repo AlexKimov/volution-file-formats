@@ -1,0 +1,22 @@
+# 
+# 
+
+get FNAME BASENAME
+string FNAME += ".toc_group"
+Open FDSE FNAME 1
+
+get NAME1 string 1    
+get NAME2 string 1
+get N1 long 1
+get N2 long 1
+get NAME3 string 1
+
+get NUM long 1
+
+for i = 0 < NUM
+    get FNAME string 1
+    get LENGTH long 1
+    get OFFSET long 1
+
+    log FNAME OFFSET LENGTH 0    
+next i
