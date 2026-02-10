@@ -1,0 +1,1 @@
+unpack_peg.py "F:\Games\Red Faction II\pc_media\Botmatch_core" "F:/git/Volition/scripts/python/pegs/out"
